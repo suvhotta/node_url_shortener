@@ -4,7 +4,8 @@
   "description": "URL Shortener built using express web framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.17",
     "nodemon": "^2.0.6"
   }
 }
